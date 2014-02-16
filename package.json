@@ -1,0 +1,25 @@
+{
+  "name": "dotdownloader.js",
+  "description": "download youtube list",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/azu/dotdownloader.js.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -o dist/bundle.js",
+    "start": "watchify index.js -o dist/bundle.js",
+    "test": "tap test/*.js"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/dotdownloader.js/issues"
+  },
+  "dependencies": {
+    "bluebird": "~1.0.5"
+  },
+  "devDependencies": {
+    "watchify": "~0.6.1"
+  }
+}
