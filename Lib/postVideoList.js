@@ -21,7 +21,6 @@ function connectWebViewJavascriptBridge(callback) {
     }
 }
 
-// 'isInstalledApp' : 配列 がhookキー
 function postVideoList(videoIDs, callback) {
     /*
     {
